@@ -1,17 +1,17 @@
-# Aegis
+# VulnSight
 
-Aegis is a Python-based automated web vulnerability scanner designed to identify common web application vulnerabilities through intelligent crawling and payload-based testing.
+VulnSight is a Python-based automated web vulnerability scanner designed to identify common web application vulnerabilities through intelligent crawling and payload-based testing.
 
 ---
 
 ## Features
 
-- Crawls target websites for URLs and HTML forms
+- Crawls target websites recursively for URLs and HTML forms
 - Extracts GET parameters and form inputs
 - Detects potential SQL Injection vulnerabilities
 - Detects reflected XSS vulnerabilities
 - Supports GET and POST form scanning
-- Deduplicates parameters to avoid redundant scans
+- Deduplicates parameters and forms to avoid redundant scans
 - Generates structured vulnerability reports
 
 ---
