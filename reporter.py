@@ -5,7 +5,7 @@ def generate_report(findings):
 
     with open("report.txt", "w") as report:
         report.write("=" * 50 + "\n")
-        report.write("Aegis Vulnerability Scan Report\n")
+        report.write("VulnSight Vulnerability Scan Report\n")
         report.write("=" * 50 + "\n\n")
 
         for vuln in findings:
